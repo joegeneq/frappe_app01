@@ -1,6 +1,6 @@
 {
  "actions": [],
- "autoname": "autoincrement",
+ "autoname": "last_name.-.first_name.-.#####",
  "creation": "2024-10-05 15:08:01.021635",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -39,11 +39,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-05 16:15:28.107510",
+ "modified": "2024-10-05 17:31:01.685785",
  "modified_by": "Administrator",
  "module": "My App01 Test",
  "name": "My Test DocType",
- "naming_rule": "Autoincrement",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {
@@ -61,5 +61,6 @@
  ],
  "sort_field": "creation",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "last_name"
 }
